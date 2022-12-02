@@ -1,3 +1,4 @@
+import 'package:devices_first_inclusion/views/devices_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,9 @@ class DevicesFirstInclusion extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      theme: ThemeData(brightness: Brightness.dark),
+      home: const DevicesView(),
+    );
   }
 }
