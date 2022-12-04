@@ -6,14 +6,17 @@ class DevicesViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      // ignore: prefer_const_literals_to_create_immutables
-      children: [
-        const SizedBox(
-          height: 25,
-        ),
-        const CustomAppBar(),
-      ],
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(15, 8, 25, 8),
+      child: Column(
+        // ignore: prefer_const_literals_to_create_immutables
+        children: [
+          const SizedBox(
+            height: 25,
+          ),
+          const CustomAppBar(),
+        ],
+      ),
     );
   }
 }
