@@ -9,7 +9,7 @@ class DeviceItem extends StatelessWidget {
       padding: const EdgeInsets.only(top: 10, bottom: 10, left: 8),
       // ignore: prefer_const_constructors
       decoration: BoxDecoration(
-        color: Colors.green,
+        color: Colors.teal,
         //borderRadius: BorderRadius.circular(10)
       ),
       child: Column(
