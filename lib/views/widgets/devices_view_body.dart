@@ -9,7 +9,7 @@ class DevicesViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(15, 8, 25, 18),
+      padding: const EdgeInsets.fromLTRB(15, 8, 15, 8),
       child: Column(
         // ignore: prefer_const_literals_to_create_immutables
         children: [
