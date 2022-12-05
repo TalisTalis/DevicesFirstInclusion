@@ -11,7 +11,7 @@ class CustomSearchIcon extends StatelessWidget {
       // ignore: prefer_const_constructors
       decoration: BoxDecoration(
         color: Colors.white.withOpacity(0.1),
-        borderRadius: BorderRadius.circular(8),
+        //borderRadius: BorderRadius.circular(8),
       ),
       // ignore: prefer_const_constructors
       child: Center(

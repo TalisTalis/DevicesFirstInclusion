@@ -15,6 +15,37 @@ class DevicesViewBody extends StatelessWidget {
             height: 25,
           ),
           const CustomAppBar(),
+          const DeviceItem(),
+        ],
+      ),
+    );
+  }
+}
+
+class DeviceItem extends StatelessWidget {
+  const DeviceItem({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      // ignore: prefer_const_constructors
+      decoration: BoxDecoration(
+        color: Colors.green,
+        //borderRadius: BorderRadius.circular(10)
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          ListTile(
+            title: const Text("Device Number"),
+            subtitle: const Text("Device Info"),
+            trailing:
+                IconButton(onPressed: () {}, icon: const Icon(Icons.traffic)),
+          ),
+          const Text(
+            "06 December 2022",
+            style: TextStyle(color: Colors.white),
+          ),
         ],
       ),
     );

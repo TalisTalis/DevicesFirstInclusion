@@ -11,7 +11,8 @@ class CustomAppBar extends StatelessWidget {
       // ignore: prefer_const_literals_to_create_immutables
       children: [
         const Text(
-          "14.12.2002", //текущая дата или дата прошлая
+          // ignore: todo
+          "14.12.2002", //текущая дата или дата прошлая //TODO: загрузка текущей даты или выбор даты по календарю (при клике на поле с датой)
           style: TextStyle(fontSize: 40),
         ),
         const Spacer(),
