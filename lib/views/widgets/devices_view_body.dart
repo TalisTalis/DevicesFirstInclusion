@@ -37,7 +37,9 @@ class DeviceItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
-            title: const Text("Device Number"),
+            title: const Text(
+              "Device Number",
+            ),
             subtitle: const Text("Device Info"),
             trailing:
                 IconButton(onPressed: () {}, icon: const Icon(Icons.traffic)),
